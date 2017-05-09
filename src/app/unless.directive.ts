@@ -4,7 +4,7 @@ import { Directive, Input, TemplateRef, ViewContainerRef } from '@angular/core';
   selector: '[appUnless]'
 })
 export class UnlessDirective {
-  // name must be the same as agit  selector
+  // name must be the same as a selector
   @Input() set appUnless(condition: boolean) {
     if (!condition) {
       //create element in container
